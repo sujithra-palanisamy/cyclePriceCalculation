@@ -16,16 +16,9 @@ import com.example.demo.service.CyclePriceRequest;
 @RestController
 public class CycleController {
 
-	@Autowired
-	private PriceExecutionQueue priceExecutionQueue;
 	
 	@Autowired
 	private PriceTest priceTest;
-	
-	@RequestMapping(value="/calculateBycycle", method=RequestMethod.POST)
-	public void getBycyclePrice(@RequestBody List<CyclePriceRequest> cyclePriceRequestList){
-		this.priceExecutionQueue.execute(cyclePriceRequestList);
-	}
 	
 	
 	@RequestMapping(value="v1/calculateBycycle", method=RequestMethod.POST)
