@@ -1,6 +1,9 @@
 *Create new database named cycleProject in mySql
 *data.sql file has all the initial data to be import 
 
+* json request:
+	POST : http://localhost:8084/v1/calculateBycycle
+    
 *SampleJson Input:
 
 [{   "wheel" : {
