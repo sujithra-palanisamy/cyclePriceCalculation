@@ -1,0 +1,25 @@
+*Create new database named cycleProject in mySql
+*data.sql file has all the initial data to be import 
+
+*SampleJson Input:
+
+[{   "wheel" : {
+    "tyre":"tyre",
+    "tyreDate":"2016-11-14"
+}, "seating" : {
+    "leather":"leather",
+    "leatherDate":"2016-11-14"
+}, "frame" : {
+    "diamond":"diamond",
+    "diamondDate":"2016-11-14"
+}, "assembly" : {
+    "rohloff":"rohloff",
+    "rohloffDate":"2016-11-14"
+}, "handleandBreak" : {
+    "drop":"drop",
+    "dropDate":"2016-11-14"
+}
+}]
+
+
+*Output will be printed in console
